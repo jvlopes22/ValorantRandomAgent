@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101923;
+  
+  overflow-x: hidden;
+  overflow-y: auto;
+}

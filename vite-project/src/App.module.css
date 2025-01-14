@@ -1,0 +1,21 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: url('./assets/Background.svg');
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    background-image: url('./assets/BackgroundMobile.svg');
+    background-attachment: scroll;
+  }
+}

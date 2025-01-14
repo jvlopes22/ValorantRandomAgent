@@ -1,0 +1,116 @@
+.agentsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 3rem;
+  height: 28rem;
+  width: 100%;
+  padding: 0 2.8rem;
+}
+
+.agentsContent{
+  height: 100%;
+  width: auto;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 3.75rem;
+}
+
+.thirdLeft, .thirdRight{
+  height: 12rem;
+  filter: blur(1px);
+  opacity: 40%;
+
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+
+.thirdLeft:hover, .thirdRight:hover {
+  transform: scale(1.1);
+}
+
+
+.secondLeft, .secondRight{
+  height: 16rem;
+  filter: blur(1px);
+  opacity: 50%;
+
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+
+.secondLeft:hover, .secondRight:hover {
+  transform: scale(1.1);
+}
+
+.firstLeft, .firstRight{
+  height: 20rem;
+  filter: blur(1px);
+  opacity: 60%;
+
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+
+.firstLeft:hover, .firstRight:hover {
+  transform: scale(1.1);
+}
+
+.middle{
+  height: 24rem;
+
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+
+.middle:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+
+  .agentsContainer{
+    height: 20rem;
+    margin-top: 1.5rem;
+  }
+
+  .agentsContent{
+    gap: 1rem;
+  }
+
+  .thirdLeft, .thirdRight{
+    height: 2rem;
+  }
+  
+  .thirdLeft:hover, .thirdRight:hover {
+    transform: scale(1.05);
+  }
+  
+  .secondLeft, .secondRight{
+    height: 6rem;
+  }
+  
+  .secondLeft:hover, .secondRight:hover {
+    transform: scale(1.05);
+  }
+  
+  .firstLeft, .firstRight{
+    height: 10rem;
+  }
+  
+  .firstLeft:hover, .firstRight:hover {
+    transform: scale(1.05);
+  }
+
+  .middle{
+    height: 14rem;
+  }
+
+  .middle:hover {
+    transform: scale(1.1);
+  }
+}

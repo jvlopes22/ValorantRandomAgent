@@ -1,0 +1,52 @@
+.footerContainer{
+  position: relative;
+  margin-top: 3.85rem;
+  width: 100%;
+  height: auto;
+}
+
+.footerContent{
+  height: 30%;
+  width: 100%;
+
+  display: flex;
+  gap: 3.125rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContent img{ 
+  height: 70%;
+}
+
+.footerContent img:hover{
+  cursor: pointer;
+}
+
+.footerContent p{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+
+  color: #6B6B6B;
+  opacity: 60%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footerContent{
+    margin-top: 10%;
+    gap: 4.85rem;
+  }
+
+  .footerContent img{
+    height: 60%;
+  }
+
+  .footerContent p{
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+  }
+}
