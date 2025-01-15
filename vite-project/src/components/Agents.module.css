@@ -20,7 +20,7 @@
   gap: 3.75rem;
 }
 
-.thirdLeft, .thirdRight{
+.position1, .position7{
   height: 12rem;
   filter: blur(1px);
   opacity: 40%;
@@ -29,12 +29,11 @@
   transition: transform 0.2s linear;
 }
 
-.thirdLeft:hover, .thirdRight:hover {
+.position1:hover, .position7:hover {
   transform: scale(1.1);
 }
 
-
-.secondLeft, .secondRight{
+.position2, .position6{
   height: 16rem;
   filter: blur(1px);
   opacity: 50%;
@@ -43,11 +42,11 @@
   transition: transform 0.2s linear;
 }
 
-.secondLeft:hover, .secondRight:hover {
+.position2:hover, .position6:hover {
   transform: scale(1.1);
 }
 
-.firstLeft, .firstRight{
+.position3, .position5{
   height: 20rem;
   filter: blur(1px);
   opacity: 60%;
@@ -56,18 +55,18 @@
   transition: transform 0.2s linear;
 }
 
-.firstLeft:hover, .firstRight:hover {
+.position3:hover, .position5:hover {
   transform: scale(1.1);
 }
 
-.middle{
+.position4{
   height: 24rem;
 
   transform: scale(1);
   transition: transform 0.2s linear;
 }
 
-.middle:hover {
+.position4:hover {
   transform: scale(1.2);
 }
 
@@ -82,35 +81,35 @@
     gap: 1rem;
   }
 
-  .thirdLeft, .thirdRight{
-    height: 2rem;
+  .position1, .position7{
+    height: 4rem;
   }
   
-  .thirdLeft:hover, .thirdRight:hover {
+  .position1:hover, .position7:hover {
     transform: scale(1.05);
   }
   
-  .secondLeft, .secondRight{
+  .position2, .position6{
     height: 6rem;
   }
   
-  .secondLeft:hover, .secondRight:hover {
+  .position2:hover, .position6:hover {
     transform: scale(1.05);
   }
   
-  .firstLeft, .firstRight{
+  .position3, .position5{
     height: 10rem;
   }
   
-  .firstLeft:hover, .firstRight:hover {
+  .position3:hover, .position5:hover {
     transform: scale(1.05);
   }
 
-  .middle{
+  .position4{
     height: 14rem;
   }
 
-  .middle:hover {
+  .position4:hover {
     transform: scale(1.1);
   }
 }
