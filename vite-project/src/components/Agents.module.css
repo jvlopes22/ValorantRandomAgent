@@ -20,7 +20,24 @@
   gap: 3.75rem;
 }
 
-.position1, .position7{
+.position1, .position2, .position3, .position4, .position5, .position6, .position7, .position8, .position18, .position19, .position20, .position21, .position22, .posistion23, .posistion24, .position25{
+  visibility: hidden;
+}
+
+.position9, .position17{
+  height: 8rem;
+  filter: blur(1px);
+  opacity: 30%;
+
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+
+.position9:hover, .position17:hover {
+  transform: scale(1.1);
+}
+
+.position10, .position16{
   height: 12rem;
   filter: blur(1px);
   opacity: 40%;
@@ -29,11 +46,11 @@
   transition: transform 0.2s linear;
 }
 
-.position1:hover, .position7:hover {
+.position10:hover, .position16:hover {
   transform: scale(1.1);
 }
 
-.position2, .position6{
+.position11, .position15{
   height: 16rem;
   filter: blur(1px);
   opacity: 50%;
@@ -42,11 +59,11 @@
   transition: transform 0.2s linear;
 }
 
-.position2:hover, .position6:hover {
+.position11:hover, .position15:hover {
   transform: scale(1.1);
 }
 
-.position3, .position5{
+.position12, .position14{
   height: 20rem;
   filter: blur(1px);
   opacity: 60%;
@@ -55,18 +72,18 @@
   transition: transform 0.2s linear;
 }
 
-.position3:hover, .position5:hover {
+.position12:hover, .position14:hover {
   transform: scale(1.1);
 }
 
-.position4{
+.position13{
   height: 24rem;
 
   transform: scale(1);
   transition: transform 0.2s linear;
 }
 
-.position4:hover {
+.position13:hover {
   transform: scale(1.2);
 }
 
@@ -81,35 +98,39 @@
     gap: 1rem;
   }
 
-  .position1, .position7{
+  .position9, .position17{
+    visibility: hidden;
+  }
+
+  .position10, .position16{
     height: 4rem;
   }
   
-  .position1:hover, .position7:hover {
+  .position10:hover, .position6:hover {
     transform: scale(1.05);
   }
   
-  .position2, .position6{
+  .position11, .position15{
     height: 6rem;
   }
   
-  .position2:hover, .position6:hover {
+  .position11:hover, .position15:hover {
     transform: scale(1.05);
   }
   
-  .position3, .position5{
+  .position12, .position14{
     height: 10rem;
   }
   
-  .position3:hover, .position5:hover {
+  .position12:hover, .position14:hover {
     transform: scale(1.05);
   }
 
-  .position4{
+  .position13{
     height: 14rem;
   }
 
-  .position4:hover {
+  .position13:hover {
     transform: scale(1.1);
   }
 }

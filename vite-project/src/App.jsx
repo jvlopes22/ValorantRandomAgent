@@ -139,7 +139,7 @@ function getRandomAgents(array, count) {
 }
 export function App() {
 
-  const randomAgents = getRandomAgents(agentsData, 7);
+  const randomAgents = getRandomAgents(agentsData, 25);
 
   return (
     <div className={styles.page}>
